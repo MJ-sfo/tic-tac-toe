@@ -6,11 +6,16 @@
     <!-- set viewport to device width to allow responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <!-- I believe jquery must be loaded before all other scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
     <!-- Compiled and minified Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 
     <!-- Compiled and minified Materialize JavaScript -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 
     <!-- link to custom stylesheet (always require **after** Materialize) -->
@@ -54,6 +59,52 @@
 
 
         </div>
+        <div class="row">
+
+          <!-- a column represents our game board -->
+          <!-- the `offset` class helps us center the board -->
+          <div class="col m6 offset-m3" id="board">
+
+            <!-- you can put rows inside of columns! -->
+            <!-- Materialize subdivides these 'nested' rows into 12 columns, too! -->
+            <div class="row">
+              <div class="col m4 valign-wrapper box">
+                <h3 class="valign center-block">X</h3>
+              </div>
+              <div class="col m4 valign-wrapper box">
+                <h3 class="valign center-block">X</h3>
+              </div>
+              <div class="col m4 valign-wrapper box">
+                <h3 class="valign center-block">X</h3>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="row">
+
+            <!-- a column represents our game board -->
+            <!-- the `offset` class helps us center the board -->
+            <div class="col m6 offset-m3" id="board">
+
+              <!-- you can put rows inside of columns! -->
+              <!-- Materialize subdivides these 'nested' rows into 12 columns, too! -->
+              <div class="row">
+                <div class="col m4 valign-wrapper box">
+                  <h3 class="valign center-block">X</h3>
+                </div>
+                <div class="col m4 valign-wrapper box">
+                  <h3 class="valign center-block">X</h3>
+                </div>
+                <div class="col m4 valign-wrapper box">
+                  <h3 class="valign center-block">X</h3>
+                </div>
+              </div>
+
+
+
+            </div>                  
       </div>
     </div>
   </body>
