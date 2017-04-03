@@ -6,7 +6,7 @@
   border: 1px solid black;
   height: 150px;
 }
-form {
+.button1 {
   width: 300px;
   padding: 20px;
   cursor: pointer;
@@ -19,5 +19,5 @@ form {
   border-radius: 10px;
   border: 1px solid #999;
   font-size: 150%;
-  onclick: $( "h3.center-block" ).text(" ");
+  /*onclick: $( "h3.center-block" ).text(" ");*/
 }
